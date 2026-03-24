@@ -29,9 +29,9 @@ Benefit: 141602
 Vector_Things: 1 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0
 
 Problem 7
-Benefit: 5221
-4997 of 5000 weights used
-Vector_Things: 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 1 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0
+Benefit: 5283
+5000 of 5000 weights used
+Vector_Things: 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0
 
 Problem 8
 Benefit: 99778

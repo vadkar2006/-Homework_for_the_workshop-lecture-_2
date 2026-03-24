@@ -34,6 +34,8 @@ Vector::Vector(Vector&& vec) noexcept {
     vec.len = 0;
 }
 Vector::Vector(const Vector& vec){
+    
+
     if (!((vec.len > 0) && vec.vector))
         return;
 

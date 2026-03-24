@@ -17,5 +17,6 @@ namespace Solving_Metod{
     namespace Genetic_Algorithm{
         Vector Slice(const Backpack& quest, const Vector& start);
 
+        Vector Parallel_Slice(const Backpack& quest, const Vector& start);
     }
 }
