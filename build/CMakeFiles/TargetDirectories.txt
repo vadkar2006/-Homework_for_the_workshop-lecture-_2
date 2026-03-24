@@ -1,0 +1,3 @@
+C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build/CMakeFiles/MyApp.dir
+C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build/CMakeFiles/edit_cache.dir
+C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build/CMakeFiles/rebuild_cache.dir

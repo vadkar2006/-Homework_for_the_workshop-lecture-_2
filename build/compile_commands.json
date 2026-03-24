@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/include -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2 -g -std=gnu++17 -o CMakeFiles\\MyApp.dir\\main.cpp.obj -c C:\\C++\\Lecture_Homework\\-Homework_for_the_workshop-lecture-_2\\main.cpp",
+  "file": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/main.cpp",
+  "output": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build/CMakeFiles/MyApp.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/include -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2 -g -std=gnu++17 -o CMakeFiles\\MyApp.dir\\Test\\Test.cpp.obj -c C:\\C++\\Lecture_Homework\\-Homework_for_the_workshop-lecture-_2\\Test\\Test.cpp",
+  "file": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/Test/Test.cpp",
+  "output": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build/CMakeFiles/MyApp.dir/Test/Test.cpp.obj"
+},
+{
+  "directory": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/include -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2 -g -std=gnu++17 -o CMakeFiles\\MyApp.dir\\Vector\\Vector.cpp.obj -c C:\\C++\\Lecture_Homework\\-Homework_for_the_workshop-lecture-_2\\Vector\\Vector.cpp",
+  "file": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/Vector/Vector.cpp",
+  "output": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build/CMakeFiles/MyApp.dir/Vector/Vector.cpp.obj"
+},
+{
+  "directory": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/include -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2 -g -std=gnu++17 -o CMakeFiles\\MyApp.dir\\Task\\Task.cpp.obj -c C:\\C++\\Lecture_Homework\\-Homework_for_the_workshop-lecture-_2\\Task\\Task.cpp",
+  "file": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/Task/Task.cpp",
+  "output": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build/CMakeFiles/MyApp.dir/Task/Task.cpp.obj"
+},
+{
+  "directory": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/include -IC:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2 -g -std=gnu++17 -o CMakeFiles\\MyApp.dir\\Solving_Metod\\Solving_Metod.cpp.obj -c C:\\C++\\Lecture_Homework\\-Homework_for_the_workshop-lecture-_2\\Solving_Metod\\Solving_Metod.cpp",
+  "file": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/Solving_Metod/Solving_Metod.cpp",
+  "output": "C:/C++/Lecture_Homework/-Homework_for_the_workshop-lecture-_2/build/CMakeFiles/MyApp.dir/Solving_Metod/Solving_Metod.cpp.obj"
+}
+]
