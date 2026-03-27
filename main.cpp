@@ -12,26 +12,26 @@
 void Test_Data_Backpack(){
     
     std::cout << "Problem 1" << std::endl;
-    Solve_Backpack_Problem("ks_4_0", Solving_Metod::Genetic_Algorithm::Parallel_Slice);
+    Solve_Backpack_Problem("ks_4_0", Solving_Metod::Branch_And_Bound::Priority_Queue);
     std::cout << std::endl;
 
     std::cout << "Problem 2" << std::endl;
-    Solve_Backpack_Problem("ks_19_0", Solving_Metod::Genetic_Algorithm::Parallel_Slice);
+    Solve_Backpack_Problem("ks_19_0", Solving_Metod::Branch_And_Bound::Priority_Queue);
     std::cout << std::endl;
 
     std::cout << "Problem 3" << std::endl;
-    Solve_Backpack_Problem("ks_30_0", Solving_Metod::Genetic_Algorithm::Parallel_Slice);
+    Solve_Backpack_Problem("ks_30_0", Solving_Metod::Branch_And_Bound::Priority_Queue);
     std::cout << std::endl;
 
     std::cout << "Problem 4" << std::endl;
-    Solve_Backpack_Problem("ks_40_0", Solving_Metod::Genetic_Algorithm::Parallel_Slice);
+    Solve_Backpack_Problem("ks_40_0", Solving_Metod::Branch_And_Bound::Priority_Queue);
     std::cout << std::endl;
 
     std::cout << "Problem 5" << std::endl;
-    Solve_Backpack_Problem("ks_45_0", Solving_Metod::Genetic_Algorithm::Parallel_Slice);
+    Solve_Backpack_Problem("ks_45_0", Solving_Metod::Branch_And_Bound::Priority_Queue);
     std::cout << std::endl;
 
-
+/*
 
     std::cout << "Problem 6" << std::endl;
     Solve_Backpack_Problem("ks_50_0", Solving_Metod::Genetic_Algorithm::Parallel_Slice);
@@ -87,7 +87,7 @@ void Test_Data_Backpack(){
 
     std::cout << "Problem 18" << std::endl;
     Solve_Backpack_Problem("ks_10000_0", Solving_Metod::Genetic_Algorithm::Parallel_Slice);
-    std::cout << std::endl;
+    std::cout << std::endl;*/
 }
 
 

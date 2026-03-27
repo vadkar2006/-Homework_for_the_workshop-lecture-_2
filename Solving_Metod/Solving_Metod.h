@@ -19,4 +19,8 @@ namespace Solving_Metod{
 
         Vector Parallel_Slice(const Backpack& quest, const Vector& start);
     }
+
+    namespace Branch_And_Bound{
+        Vector Priority_Queue(const Backpack& quest, const Vector& start);
+    }
 }

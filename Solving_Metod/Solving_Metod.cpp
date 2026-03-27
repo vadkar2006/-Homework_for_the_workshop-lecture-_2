@@ -2,6 +2,7 @@
 #include <thread>
 #include <random>
 #include <algorithm>
+#include <queue>
 
 #include "Solving_Metod.h"
 
@@ -50,10 +51,6 @@ Vector Solving_Metod::Genetic_Algorithm::Slice(const Backpack& quest, const Vect
 
     return population_old[0];
 }
-
-
-
-
 
 
 Vector Solving_Metod::Genetic_Algorithm::Parallel_Slice(const Backpack& quest, const Vector& start){
@@ -157,7 +154,52 @@ Vector Solving_Metod::Genetic_Algorithm::Parallel_Slice(const Backpack& quest, c
 
 
 
+Vector Solving_Metod::Branch_And_Bound::Priority_Queue(const Backpack& quest, const Vector& start){
+    
+    struct Solution{
+        const Backpack* quest;
+        Vector sol_vec;
+        int cost;
+        int id_poz;
+    
+        Solution(const Backpack* quest1, const Vector& sol_vec1, int id_poz1): quest(quest1), sol_vec(sol_vec1), id_poz(id_poz1){cost = quest1 -> Cost_Finction(sol_vec1);}
 
+        bool operator < (const Solution& sol11) const{return cost < sol11.cost;}
+    };
+
+    std::priority_queue<Solution> queue_sol;
+
+
+    Vector best_vector(quest.Get_Count_Items());
+    int best_cost = 0;
+
+    queue_sol.push(Solution(&quest, best_vector, 0));
+    
+
+    while (queue_sol.size() > 0){
+        Solution sol = queue_sol.top();
+        queue_sol.pop();
+
+        if(best_cost < sol.cost){
+            best_vector = sol.sol_vec;
+            best_cost = sol.cost;
+        }
+
+        if(sol.id_poz < quest.Get_Count_Items()){
+            Solution sol1(&quest, sol.sol_vec, sol.id_poz + 1);
+            sol.sol_vec[sol.id_poz] = !sol.sol_vec[sol.id_poz];
+            Solution sol2(&quest, sol.sol_vec, sol.id_poz + 1);
+
+            if(sol1.cost >= 0)
+                queue_sol.push(sol1);
+
+            if(sol2.cost >= 0)
+                queue_sol.push(sol2);
+        }
+    }
+    
+    return best_vector;
+}
 
 
 
