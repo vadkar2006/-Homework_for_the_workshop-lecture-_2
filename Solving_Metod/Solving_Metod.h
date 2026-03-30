@@ -22,5 +22,7 @@ namespace Solving_Metod{
 
     namespace Branch_And_Bound{
         Vector Priority_Queue(const Backpack& quest, const Vector& start);
+        Vector Queue(const Backpack& quest, const Vector& start);
+        Vector Stack(const Backpack& quest, const Vector& start);
     }
 }
